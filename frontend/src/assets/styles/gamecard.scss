@@ -1,0 +1,67 @@
+@import "@/assets/styles/_variables.scss";
+@import "@/assets/styles/_classes.scss";
+.radiant-color{
+    color: $radiant-color;
+  }
+  .dire-color{
+    color: $dire-color;
+  }
+  .reload-button{
+    @extend %button;
+    width: 165px;
+    border-bottom: 2px solid $gold;
+    &:hover{
+      background-color: $gold ;
+    }
+  }
+  button span{
+    display:inline-block;
+    transform: scale(1, 0.85);
+  }
+  .radiant-button{
+    @extend %button;
+    border-top: 2px solid $radiant-color;
+    width: 198px;
+    &:hover{
+      background-color: $radiant-color;
+    }
+  }
+  .dire-button{
+    @extend %button;
+    border-top: 2px solid $dire-color;
+    width: 150px;
+    &:hover{
+      background-color: $dire-color ;
+    }
+  }
+
+  .dire-button:focus, .radiant-button:focus{
+    outline: none;
+    background-color: $bg-color;
+  }
+  .time-badge{
+    height: 30px;
+    line-height: 30px;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0 10px 0 0;
+    background: #664514;
+  }
+  .matchq-title{
+    @extend %title;
+    position: relative;
+    display:inline-block;
+  }
+  .game-card{
+    background-color: inherit;
+    max-height: 360px;
+  }
+  @media only screen and (min-width: $app-width) {
+    .game-card{
+      max-width: $app-width - 10px;
+    }
+    .content-loader{
+      max-width: $app-width;
+    }
+    }

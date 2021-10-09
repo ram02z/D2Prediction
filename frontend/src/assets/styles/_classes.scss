@@ -1,0 +1,35 @@
+%title {
+    transform: scale(1, 0.85);
+    text-decoration: none;
+    opacity: 1;
+    color: $gold;
+    font-weight: 600;
+    width: fit-content;
+    font-size: 1.5em!important;
+    height: 40px!important;
+    letter-spacing: 2px;
+}
+%button {
+    background-color: $bg-color;
+    letter-spacing: 2.25px;
+    color: $primary-color;
+    border: 0;
+    font-size: 1.125em;
+    font-weight: 600;
+    height: 36px;
+    transition: 50ms ease-in;
+}
+%team-title {
+    z-index: 1;
+    padding-left: 35px;
+    letter-spacing: 1px;
+    font-size: 1.4em;
+}
+%big-team-title {
+    z-index: 1;
+    letter-spacing: 1.5px;
+    font-size: 2em;
+    color: $primary-color;
+    padding-bottom: 5px;
+}
+

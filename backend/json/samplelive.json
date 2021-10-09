@@ -1,0 +1,60 @@
+[
+  {
+    "average_mmr": 8745,
+    "dire_likelihood": 0,
+    "dire_team": {
+      "heroes": [
+        67,
+        74,
+        126,
+        21,
+        68
+      ]
+    },
+    "match_id": 5624452572,
+    "medal": "medal_b",
+    "radiant_likelihood": 1,
+    "radiant_outcome": null,
+    "radiant_team": {
+      "heroes": [
+        109,
+        106,
+        129,
+        119,
+        121
+      ]
+    },
+    "radiant_vote": null,
+    "server_id": 90138938327983109,
+    "time_remaining": 192
+  },
+  {
+    "average_mmr": 8801,
+    "dire_likelihood": 1,
+    "dire_team": {
+      "heroes": [
+        54,
+        17,
+        65,
+        110,
+        111
+      ]
+    },
+    "match_id": 5624467184,
+    "medal": "medal_c",
+    "radiant_likelihood": 0,
+    "radiant_outcome": null,
+    "radiant_team": {
+      "heroes": [
+        44,
+        25,
+        16,
+        21,
+        128
+      ]
+    },
+    "radiant_vote": null,
+    "server_id": 90138937561067520,
+    "time_remaining": 888
+  }
+]
